@@ -7,6 +7,35 @@
         mc:Ignorable="d"
         Title="MenuPrincipalWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" Background="#FFFFC9C9"/>
+
+        <Image Source="/Imagens/269f1513ed108cf2a484efbe5b350461.jpg" Width="100"/>
+
+        <Border Grid.Column="1" Background="#FFFFE6E6"/>
+
+        <StackPanel Grid.Column="0" Margin="20" VerticalAlignment="Center">
+
+            <Button Content="INICIO:" FontSize="24" FontFamily="Comic Sans MS" Background= "#FFFFC9C9" BorderBrush="Transparent"/> 
+            
+
+            <Button Content="ESCOLA" FontSize="24" FontFamily="Comic Sans MS" Background= "#FFFFC9C9" BorderBrush="Transparent"/>
+
+            <Button Content="CURSOS" FontSize="24" FontFamily="Comic Sans MS" Background= "#FFFFC9C9" BorderBrush="Transparent"/>
+
+            <Button Content="TURMA" FontSize="24" FontFamily="Comic Sans MS" Background= "#FFFFC9C9" BorderBrush="Transparent"/>
+
+            <Button Content="CALENDARIO" FontSize="24" FontFamily="Comic Sans MS" Background= "#FFFFC9C9" BorderBrush="Transparent"/>
+
+            <Button Content="MATRICULA" FontSize="24" FontFamily="Comic Sans MS" Background= "#FFFFC9C9" BorderBrush="Transparent"/>
+
+            <Button Content="SAIR" FontSize="24" FontFamily="Comic Sans MS" Background= "#FFFFC9C9" BorderBrush="Transparent"/>
+
+
+        </StackPanel>
+
     </Grid>
 </Window>
